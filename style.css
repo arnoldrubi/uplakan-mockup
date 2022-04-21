@@ -1,0 +1,112 @@
+/*Color Variables*/
+/*End Variables*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #2d2d2d;
+}
+
+a {
+  color: #32662F;
+}
+
+a:hover {
+  color: #F7B000;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Merriweather', serif;
+  color: #32662F;
+}
+
+.bi {
+  color: #32662F;
+}
+
+/*Header Elements*/
+#main-header {
+  border-top: 5px solid #93CB6C;
+}
+
+#brand-logo {
+  max-width: 120px;
+}
+
+.navbar-dark, .btn-primary {
+  background-color: #32662F;
+}
+
+.btn-primary {
+  border: 1px solid #93CB6C;
+}
+
+.btn-primary:hover {
+  background-color: #F7B000;
+  border: 1px solid #F7B000;
+}
+
+.card {
+  border-radius: 0px;
+  border: 0;
+}
+
+.card-header:first-child {
+  border-radius: 0;
+}
+
+/*Hero home*/
+#hero-home {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(100, 155, 97, 0.95)), to(rgba(50, 102, 47, 0.8))), url("images/ladz-buhain-OpewaCbFKN8-unsplash.jpg") no-repeat center center;
+  background: linear-gradient(to right, rgba(100, 155, 97, 0.95), rgba(50, 102, 47, 0.8)), url("images/ladz-buhain-OpewaCbFKN8-unsplash.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+/*Our Projects*/
+#projects-container {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(45, 45, 45, 0.95)), to(rgba(59, 75, 59, 0.9))), url(/images/educ-pattern.png) top left;
+  background: linear-gradient(to right, rgba(45, 45, 45, 0.95), rgba(59, 75, 59, 0.9)), url(/images/educ-pattern.png) top left;
+}
+
+#our-projects .card {
+  -webkit-box-shadow: 0 5px 8px rgba(45, 45, 45, 0.95);
+          box-shadow: 0 5px 8px rgba(45, 45, 45, 0.95);
+}
+
+#our-projects #socio-civic .card-header {
+  border-top: 5px solid #7b1113;
+}
+
+#our-projects #socio-civic h4 {
+  color: #7b1113;
+}
+
+#our-projects #socio-civic .btn.btn-primary {
+  background-color: #7b1113;
+  border-color: #7b1113;
+}
+
+#our-projects #scholarship .card-header {
+  border-top: 5px solid #014421;
+}
+
+#our-projects #scholarship h4 {
+  color: #014421;
+}
+
+#our-projects #scholarship .btn.btn-primary {
+  background-color: #014421;
+  border-color: #014421;
+}
+
+#our-projects #bulacan-tradition .card-header {
+  border-top: 5px solid #0038A8;
+}
+
+#our-projects #bulacan-tradition h4 {
+  color: #0038A8;
+}
+
+#our-projects #bulacan-tradition .btn.btn-primary {
+  background-color: #0038A8;
+  border-color: #0038A8;
+}
+/*# sourceMappingURL=style.css.map */

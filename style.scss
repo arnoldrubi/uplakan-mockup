@@ -1,0 +1,102 @@
+
+/*Color Variables*/
+$brand-color: #32662F;
+$brand-color-light: #93CB6C;
+$highlight-color: #F7B000;
+$dark-text: rgb(45, 45, 45);
+$medium-gray: #646464;
+$light-text: #fff;
+/*End Variables*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: $dark-text;
+}
+a{
+	color: $brand-color;
+	&:hover{
+		color: $highlight-color;
+	}
+}
+h1, h2, h3, h4, h5{
+	font-family: 'Merriweather', serif;
+    color: $brand-color;
+}
+.bi {
+	color: $brand-color;
+}
+/*Header Elements*/
+#main-header{
+	border-top: 5px solid $brand-color-light;
+}
+#brand-logo{
+	max-width: 120px;
+}
+.navbar-dark,.btn-primary{
+	background-color: $brand-color;
+}
+.btn-primary{
+	border: 1px solid $brand-color-light;
+	&:hover{
+		background-color: $highlight-color;
+		border: 1px solid $highlight-color;
+	}
+}
+.card{
+	border-radius: 0px;
+	border: 0;
+}
+.card-header:first-child{
+	border-radius: 0;
+}
+/*Hero home*/
+#hero-home {
+	background: linear-gradient(to right, rgba(100, 155, 97,.95), rgba(50, 102, 47,.8)), url("images/ladz-buhain-OpewaCbFKN8-unsplash.jpg") no-repeat center center;
+	background-size: cover;
+  }
+/*Our Projects*/
+#projects-container{
+	background: linear-gradient(to right, rgba(45, 45, 45, 0.95), rgba(59, 75, 59, 0.9)), url(/images/educ-pattern.png) top left;
+	
+}
+#our-projects{
+	.card{
+		box-shadow: 0 5px 8px rgba(45, 45, 45, 0.95);
+	}
+	#socio-civic {
+	
+	.card-header{
+		border-top: 5px solid #7b1113;
+	}
+	h4{
+		color: #7b1113;		
+		}
+	.btn.btn-primary{
+		background-color: #7b1113;
+		border-color: #7b1113;
+		}
+	}
+	#scholarship {
+		.card-header{
+			border-top: 5px solid #014421;
+		}
+		h4{
+			color: #014421;		
+			}
+		.btn.btn-primary{
+			background-color: #014421;
+			border-color: #014421;
+			}
+		}
+	#bulacan-tradition {
+		.card-header{
+			border-top: 5px solid #0038A8;
+		}
+		h4{
+			color: #0038A8;		
+			}
+		.btn.btn-primary{
+			background-color: #0038A8;
+			border-color: #0038A8;
+			}
+		}
+}
